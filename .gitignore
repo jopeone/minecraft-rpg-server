@@ -1,0 +1,62 @@
+# ==========================
+# Minecraft Runtime
+# ==========================
+
+logs/
+crash-reports/
+
+# Worlds
+saves/
+
+# Screenshots
+screenshots/
+
+# Runtime cache
+.fabric/
+modernfix/
+
+# Xaero maps
+xaero/
+
+# Player cache
+usercache.json
+usernamecache.json
+
+# Local options
+options.txt
+optionsof.txt
+servers.dat
+servers.dat_old
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# ==========================
+# Keep these folders tracked
+# ==========================
+!mods/
+!config/
+!defaultconfigs/
+!kubejs/
+!resourcepacks/
+!shaderpacks/
+!scripts/
+!datapacks/
