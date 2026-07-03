@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "bypass_spawn_helper": true,
+  "bypass_spawn_restriction": true,
+  "bypass_mob_canspawn": true,
+  "debug": {
+    "enabled": false,
+    "log_bypass": true,
+    "log_spawn_result": true,
+    "log_rejection": false,
+    "summary_interval_seconds": 10
+  },
+  "denied_blocks_below": [
+    "minecraft:magma_block",
+    "minecraft:lava",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:cactus",
+    "minecraft:sweet_berry_bush",
+    "minecraft:powder_snow",
+    "minecraft:campfire",
+    "minecraft:soul_campfire"
+  ],
+  "force_spawn_entities": [],
+  "spawn_group_override": {}
+}

@@ -1,7 +1,31 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "dungeons_arise:wda_root": {
     "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
+      "WDA": "2026-07-02 21:31:38 -0300"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2026-07-02 21:31:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-02 21:31:38 -0300"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2026-07-02 21:31:38 -0300"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2026-07-02 21:31:38 -0300"
     },
     "done": true
   },
@@ -11,39 +35,98 @@
     },
     "done": false
   },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2026-07-02 21:35:52 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
   "incendium:technical/using/ragnarok": {
     "criteria": {
       "log_spam_fixer": "2026-07-02 21:32:17 -0300"
     },
     "done": false
   },
-  "dungeons_arise:wda_root": {
+  "incendium:technical/using/trailblazer": {
     "criteria": {
-      "WDA": "2026-07-02 21:31:38 -0300"
+      "log_spam_fixer": "2026-07-02 21:32:17 -0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2026-07-02 21:34:04 -0300",
+      "minecraft:savanna_plateau": "2026-07-02 21:33:07 -0300",
+      "minecraft:lukewarm_ocean": "2026-07-02 21:32:22 -0300",
+      "minecraft:river": "2026-07-02 21:33:25 -0300",
+      "minecraft:deep_lukewarm_ocean": "2026-07-02 21:32:26 -0300",
+      "minecraft:savanna": "2026-07-02 21:32:17 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 21:32:17 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-02 21:32:43 -0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2026-07-02 21:35:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2026-07-02 21:35:52 -0300"
     },
     "done": true
   },
@@ -65,63 +148,9 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2026-07-02 21:35:52 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "repurposed_structures:root": {
-    "criteria": {
-      "always": "2026-07-02 21:31:38 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2026-07-02 21:31:38 -0300"
-    },
-    "done": true
-  },
-  "naturalist:recipes/food/cooked_egg": {
-    "criteria": {
-      "has_eggs": "2026-07-02 21:35:36 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/using/trailblazer": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:32:17 -0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
     },
     "done": true
   },
@@ -131,82 +160,11 @@
     },
     "done": true
   },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2026-07-02 21:31:38 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:cherry_grove": "2026-07-02 21:34:04 -0300",
-      "minecraft:savanna_plateau": "2026-07-02 21:33:07 -0300",
-      "minecraft:lukewarm_ocean": "2026-07-02 21:32:22 -0300",
-      "minecraft:river": "2026-07-02 21:33:25 -0300",
-      "minecraft:deep_lukewarm_ocean": "2026-07-02 21:32:26 -0300",
-      "minecraft:savanna": "2026-07-02 21:32:17 -0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2026-07-02 21:35:52 -0300"
     },
     "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
-    },
-    "done": true
-  },
-  "naturalist:recipes/food/cooked_venison": {
-    "criteria": {
-      "has_venison": "2026-07-02 21:41:20 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/using/shield": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:32:17 -0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
-    },
-    "done": false
   },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
@@ -226,51 +184,153 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2026-07-02 21:35:52 -0300"
     },
     "done": true
   },
-  "incendium:technical/new_player": {
+  "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
-      "requirement": "2026-07-02 21:31:38 -0300"
+      "has_diamond": "2026-07-02 21:35:52 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
+  "naturalist:recipes/food/cooked_venison": {
     "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
+      "has_venison": "2026-07-02 21:41:20 -0300"
     },
     "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
+    },
+    "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-07-02 21:41:22 -0300"
+      "log_spam_fixer": "2026-07-02 22:25:38 -0300"
     },
     "done": false
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "in_water": "2026-07-02 21:32:43 -0300"
+      "has_stick": "2026-07-02 22:24:58 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_boots": {
+  "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_diamond": "2026-07-02 21:35:52 -0300"
+      "has_logs": "2026-07-02 22:24:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-07-02 22:24:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-07-02 22:24:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-07-02 22:24:58 -0300"
     },
     "done": true
   },
