@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "01755ea9197a4f30b42862436ab02146"
+	name: "j0pezera#01755ea9"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: {
+		01755ea9197a4f30b42862436ab02146: {
+			can_edit: 1b
+		}
+	}
+}

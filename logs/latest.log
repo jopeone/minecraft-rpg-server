@@ -1,0 +1,877 @@
+[21:30:35] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.19.3
+[21:30:35] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[21:30:35] [ForkJoinPool-1-worker-4/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:30:35] [ForkJoinPool-1-worker-11/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:30:35] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+[21:30:35] [main/INFO]: Loading 204 mods:
+	- adventurez 1.4.20
+	- appleskin 2.5.2+mc1.20.1
+	- architectury 9.2.14
+	- bettercombat 1.9.0+1.20.1
+	- betterdungeons 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterf3 7.0.2
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- combatroll 1.3.3+1.20.1
+	- corgilib 4.0.3.4
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- creativecore 2.12.39
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- ctov 3.4.14
+	- dataanchor 1.0.0.20
+	- debugify 1.20.1+2.0
+	- dungeons_arise 2.1.58
+	- dungeons_arise_seven_seas 1.0.2
+	- emi 1.1.24+1.20.1+fabric
+	- enchancement 1.20-26
+	   \-- step-height-entity-attribute 1.2.0
+	- enhancedcelestials 1.20.1-5.0.3.2
+	- enhancedvisuals 1.8.29
+	- entityculling 1.10.5
+	   |-- transition 1.0.21
+	   \-- trender 1.0.15
+	- explorify 1.6.5
+	- fabric-api 0.92.9+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.15+93aa238b77
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.68+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.9+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.6+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.15+0caff8d077
+	   |-- fabric-networking-v0 0.3.55+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.25+1802ada577
+	   |-- fabric-registry-sync-v0 2.4.1+4c0a70e677
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.34+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.12+kotlin.2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- fallingtree 4.3.4
+	- ferritecore 6.0.1
+	- friendsandfoes 3.0.9
+	   \-- reach-entity-attributes 2.4.0
+	- ftbchunks 2001.3.8
+	- ftblibrary 2001.2.13
+	- ftbquests 2001.4.22
+	   \-- team_reborn_energy 3.0.0
+	- ftbteams 2001.3.2
+	- geckolib 4.8.4
+	   \-- com_eliotlash_mclib_mclib 20
+	- gpumemleakfix 1.20.1-1.8
+	- immediatelyfast 1.5.5+1.20.4
+	   \-- net_lenni0451_reflect 1.6.2
+	- incendium 5.3.5
+	- indium 1.0.36+mc1.20.1
+	- inventoryprofilesnext 1.10.20
+	- jade 11.13.1+fabric
+	- jadeaddons 5.5.2+fabric
+	- jamlib 1.3.6+1.20.1-patch.1
+	   \-- blue_endless_jankson 1.2.3
+	- java 17
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- libipn 4.0.2
+	- lithium 0.11.4
+	- lithostitched 1.4.11
+	- midnightlib 1.9.3
+	- minecraft 1.20.1
+	- modernfix 5.25.2+mc1.20.1
+	- modmenu 7.2.2
+	- moreculling 1.20.1-0.24.5
+	   |-- conditional-mixin 0.3.2
+	   \-- mixinsquared 0.1.1
+	- mousewheelie 1.16.3+mc1.20.1
+	   |-- amecs_key_mapping_descriptions 1.0.1+mc1.20
+	   |-- amecs_mouse_inputs 1.0.1+mc1.20
+	   |-- amecs_priority_key_mappings 1.0.1+mc1.20
+	   |-- coat 1.1.1+mc1.20
+	   |-- tweed5_bundle 0.9.0
+	   |    |-- tweed5_attributes_extension 0.9.0
+	   |    |-- tweed5_construct 0.9.0
+	   |    |-- tweed5_core 0.9.0
+	   |    |-- tweed5_default_extensions 0.9.0
+	   |    |-- tweed5_logging 0.9.0
+	   |    |-- tweed5_patchwork 0.9.0
+	   |    |-- tweed5_serde_api 0.9.0
+	   |    |-- tweed5_serde_extension 0.9.0
+	   |    \-- tweed5_utils 0.9.0
+	   |-- tweed5_bundle_pojo_weaving 0.9.0
+	   |    |-- tweed5_annotation_inheritance 0.9.0
+	   |    |-- tweed5_naming_format 0.9.0
+	   |    |-- tweed5_type_utils 0.9.0
+	   |    |-- tweed5_weaver_pojo 0.9.0
+	   |    |-- tweed5_weaver_pojo_attributes_extension 0.9.0
+	   |    |-- tweed5_weaver_pojo_presets_extension 0.9.0
+	   |    |-- tweed5_weaver_pojo_serde_extension 0.9.0
+	   |    \-- tweed5_weaver_pojo_validation_extension 0.9.0
+	   |-- tweed5_coat_bridge 0.9.0+mc1.20.6
+	   |-- tweed5_comment_loader_extension 0.9.0
+	   |-- tweed5_fabric_helper 0.9.0+mc1.20.6
+	   |-- tweed5_serde_gson 0.9.0
+	   \-- tweed5_serde_hjson 0.9.0
+	- naturalist 5.0pre5
+	- numismatic-overhaul 0.2.18+1.20
+	   \-- stacc 1.7.0
+	- owo 0.11.2+1.20
+	- player-animator 1.0.2-rc1+1.20
+	- repurposed_structures 7.1.24+1.20.1-fabric
+	- resourcefulconfig 2.1.3
+	- rightclickharvest 4.6.1+1.20.1
+	- simplyswords 1.56.0-1.20.1
+	   \-- spruceui 5.0.0+1.20
+	- sodium 0.5.13+mc1.20.1
+	- structory 1.3.5
+	- terralith 2.5.4
+	- tooltipfix 1.1.1-1.20
+	- totw_modded fabric-1.20.1-1.0.6
+	- trinkets 3.7.2
+	- xaerominimap 26.1.0
+	   \-- xaerolib 1.1.15
+	- xaeroworldmap 1.41.2
+	   \-- xaerolib 1.1.15
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+[21:30:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/lucag/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:30:36] [main/INFO]: Compatibility level set to JAVA_17
+[21:30:36] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:30:36] [main/INFO]: Preloading Debugify
+[21:30:36] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[21:30:36] [main/INFO]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 71 options available, 0 override(s) found
+[21:30:36] [main/INFO]: Applying Nashorn fix
+[21:30:36] [main/INFO]: Configuring Minecraft's max.bg.threads option with 9 threads
+[21:30:36] [main/WARN]: Reference map 'repurposed_structures.refmap.json' for repurposed_structures-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:30:36] [main/WARN]: Reference map 'repurposed_structures.refmap.json' for repurposed_structures-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:30:36] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:30:36] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 0 override(s) found
+[21:30:36] [main/WARN]: Error loading class: mezz/jei/fabric/platform/RenderHelper (java.lang.ClassNotFoundException: mezz/jei/fabric/platform/RenderHelper)
+[21:30:36] [main/WARN]: @Mixin target mezz.jei.fabric.platform.RenderHelper was not found appleskin.jei.mixins.json:JEIRenderHelperMixin from mod appleskin
+[21:30:36] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[21:30:36] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[21:30:36] [main/WARN]: Force disabled MC-176559 because it's conflicting with: fabric-api
+[21:30:36] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[21:30:36] [main/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
+[21:30:37] [main/WARN]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/equipment/armor/BacktankBlockEntity)
+[21:30:37] [main/WARN]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess from mod jadeaddons
+[21:30:37] [main/WARN]: Error loading class: com/simibubi/create/content/equipment/blueprint/BlueprintOverlayRenderer (java.lang.ClassNotFoundException: com/simibubi/create/content/equipment/blueprint/BlueprintOverlayRenderer)
+[21:30:37] [main/WARN]: @Mixin target com.simibubi.create.content.equipment.blueprint.BlueprintOverlayRenderer was not found jadeaddons.mixins.json:create.BlueprintOverlayRendererAccess from mod jadeaddons
+[21:30:37] [main/WARN]: Error loading class: com/simibubi/create/content/logistics/filter/FilterItem (java.lang.ClassNotFoundException: com/simibubi/create/content/logistics/filter/FilterItem)
+[21:30:37] [main/WARN]: @Mixin target com.simibubi.create.content.logistics.filter.FilterItem was not found jadeaddons.mixins.json:create.FilterItemAccess from mod jadeaddons
+[21:30:37] [main/WARN]: Error loading class: com/simibubi/create/content/equipment/goggles/GoggleOverlayRenderer (java.lang.ClassNotFoundException: com/simibubi/create/content/equipment/goggles/GoggleOverlayRenderer)
+[21:30:37] [main/WARN]: @Mixin target com.simibubi.create.content.equipment.goggles.GoggleOverlayRenderer was not found jadeaddons.mixins.json:create.GoggleOverlayRendererMixin from mod jadeaddons
+[21:30:37] [main/WARN]: Error loading class: net/createmod/ponder/foundation/PonderTooltipHandler (java.lang.ClassNotFoundException: net/createmod/ponder/foundation/PonderTooltipHandler)
+[21:30:37] [main/WARN]: @Mixin target net.createmod.ponder.foundation.PonderTooltipHandler was not found jadeaddons.mixins.json:create.PonderTooltipHandlerMixin from mod jadeaddons
+[21:30:37] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:30:37] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[21:30:37] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[21:30:37] [main/INFO]: Searching for graphics cards...
+[21:30:37] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 580 2048SP', adapterType=0x0000230B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0417877.inf_amd64_8b2c2b61b3f8a9e5\B417004\atig6pxx.dll', openglIcdVersion=31.0.21923.11000}
+[21:30:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[21:30:37] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[21:30:37] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[21:30:39] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:30:39] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:30:39] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:30:41] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:30:41] [main/INFO]: Vanilla bootstrap took 2534 milliseconds
+[21:30:41] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:30:42] [Render thread/INFO]: Setting user: j0pezera
+[21:30:42] [Render thread/INFO]: Bypassed Mojang DFU
+[21:30:43] [Render thread/INFO]: Reflections took 34 ms to scan 1 urls, producing 1 keys and 3 values
+[21:30:43] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:30:43] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:30:43] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:30:43] [Render thread/INFO]: Initializing network...
+[21:30:43] [Render thread/INFO]: Initialized network!
+[21:30:43] [Render thread/INFO]: Enabled 66 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[21:30:43] [Render thread/INFO]: Successfully Debugify'd your game!
+[21:30:43] [Render thread/INFO]: Hello Fabric world!
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:request_map_data
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:share_waypoint
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_all_chunks
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:login_data
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_chunk
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_general_data
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:player_death
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_visible_player_list
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:sync_tx
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:sync_rx
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:loaded_chunk_view
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_player_position
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[21:30:43] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:server_config_request
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:server_config_response
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:chunk_change_response
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:request_block_color
+[21:30:43] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:add_waypoint
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_nbt
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_config
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_quests
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_team_data
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:update_task_progress
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:submit_task
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_reward
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:claim_reward_response
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_editing_mode
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:get_emergency_items
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:create_other_team_data
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_completion_toast
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_reward_toast
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_item_reward_toast
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:custom_reward_toast
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:toggle_pinned
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:toggle_pinned_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:toggle_chapter_pinned_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:force_save
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:update_team_data
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:set_custom_image
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_started
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_completed
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_started_reset
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_completed_reset
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_lock
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:reset_reward
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:team_data_changed
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:task_screen_config_req
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:give_item_to_player
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:reorder_item
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:change_progress
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:create_object
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:create_object_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:create_task_at
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:delete_object
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:delete_object_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:edit_object
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:edit_object_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_chapter
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_chapter_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_quest
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_quest_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:change_chapter_group
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:change_chapter_group_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_chapter_group
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_chapter_group_response
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_reward_blocking
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:copy_quest
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:sync_structures_request
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_structures_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbquests:request_team_data
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_editor_permission
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:open_quest_book
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:clear_display_cache
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:reorder_item_response
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbquests:clear_repeat_cooldown
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:sync_teams
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:sync_message_history
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbteams:open_gui
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbteams:update_settings
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_settings_response
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbteams:send_message
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:send_message_response
+[21:30:44] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_presence
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbteams:create_party
+[21:30:44] [Render thread/INFO]: Registering C2S receiver with id ftbteams:player_gui_operation
+[21:30:44] [Render thread/INFO]: Initializing JamLib on Fabric
+[21:30:44] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[21:30:44] [Render thread/WARN]: Encountered issues while reading C:\Users\lucag\curseforge\minecraft\Instances\RPG-VanillaPlus-Dev\config\mousewheelie.hjson: 
+  - at .sort.server-accelerated-sorting: TweedReadIssue(java.lang.Exception: This feature only works in singleplayer or on a server with Mouse Wheelie installed.)
+
+[21:30:44] [Render thread/INFO]: Loaded Mouse Wheelie config
+[21:30:45] [Render thread/INFO]: DerGeistdesMatze - i will take the l
+[21:30:45] [Render thread/INFO]: Updated config file at C:\Users\lucag\curseforge\minecraft\Instances\RPG-VanillaPlus-Dev\config\rightclickharvest.json5
+[21:30:45] [Render thread/INFO]: Updated config file at C:\Users\lucag\curseforge\minecraft\Instances\RPG-VanillaPlus-Dev\config\rightclickharvest.json5
+[21:30:45] [Render thread/INFO]: Initializing Right Click Harvest on FABRIC
+[21:30:45] [Render thread/INFO]: [STDOUT]: C:\Users\lucag\curseforge\minecraft\Instances\RPG-VanillaPlus-Dev\config
+[21:30:45] [Render thread/INFO]: Hello Fabric world!
+[21:30:45] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[21:30:45] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[21:30:46] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[21:30:46] [Render thread/INFO]: [BetterF3] Loading...
+[21:30:46] [Render thread/INFO]: [BetterF3] All done!
+[21:30:46] [Render thread/INFO]: Loading Description Cache
+[21:30:46] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:30:46] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
+[21:30:46] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[21:30:46] [Worker-Main-1/INFO]: Checking mod updates...
+[21:30:47] [Render thread/INFO]: Registering S2C receiver with id rightclickharvest:hello
+[21:30:47] [Render thread/INFO]: [STDOUT]: [TRender] Initializing Client...
+[21:30:47] [Render thread/INFO]: Registering common data for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Registering client data for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Loading primary common config for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Loading server config profiles for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Loading primary client config for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Loading client config profiles for channel xaerolib:main!
+[21:30:47] [Render thread/INFO]: Loading XaeroLib common 1/2!
+[21:30:47] [Render thread/INFO]: Loading XaeroLib client 1/2!
+[21:30:47] [Worker-Main-1/INFO]: Update available for 'dungeons_arise_seven_seas@1.0.2', (-> 1.0.4)
+[21:30:48] [Render thread/INFO]: Registering common data for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Registering client data for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Loading primary common config for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Loading server config profiles for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Loading primary client config for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Loading client config profiles for channel xaerominimap:main!
+[21:30:48] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[21:30:48] [Render thread/INFO]: Registering common data for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Registering client data for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Loading primary client config for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Loading client config profiles for channel xaeroworldmap:main!
+[21:30:48] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[21:30:48] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\lucag\curseforge\minecraft\Instances\RPG-VanillaPlus-Dev\config\yacl.json5'
+[21:30:48] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[21:30:49] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[21:30:49] [Render thread/INFO]: OpenGL Renderer: AMD Radeon RX 580 2048SP
+[21:30:49] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 25.8.1.250617
+[21:30:49] [Render thread/INFO]: Initializing ImmediatelyFast 1.5.5+1.20.4 on AMD Radeon RX 580 2048SP (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 25.8.1.250617
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/blit_screen.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui_overlay.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/position.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/position_color.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/position_color_tex.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/position_tex.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/position_tex_color.json
+[21:30:49] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text.json
+[21:30:50] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (adventurez, amecs_key_mapping_descriptions, amecs_mouse_inputs, amecs_priority_key_mappings, appleskin, bettercombat, betterdungeons, betterf3, bettermineshafts, bosses_of_mass_destruction, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, cloth-config, coat, combatroll, conditional-mixin, corgilib, creativecore, ctov, debugify, dungeons_arise, dungeons_arise_seven_seas, emi, enchancement, enhancedcelestials, enhancedvisuals, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingtree, friendsandfoes, ftbchunks, ftblibrary, ftbquests, ftbteams, geckolib, immediatelyfast, incendium, indium, inventoryprofilesnext, jade, jadeaddons, jamlib, krypton, libipn, lithium, maelstrom_library, midnightlib, modernfix, modmenu, moreculling, mousewheelie, naturalist, numismatic-overhaul, owo, reach-entity-attributes, repurposed_structures, rightclickharvest, simplyswords, sodium, spruceui, stacc, step-height-entity-attribute, structory, team_reborn_energy, tooltipfix, trender, trinkets, tweed5_annotation_inheritance, tweed5_attributes_extension, tweed5_bundle, tweed5_bundle_pojo_weaving, tweed5_coat_bridge, tweed5_comment_loader_extension, tweed5_construct, tweed5_core, tweed5_default_extensions, tweed5_fabric_helper, tweed5_logging, tweed5_naming_format, tweed5_patchwork, tweed5_serde_api, tweed5_serde_extension, tweed5_serde_gson, tweed5_serde_hjson, tweed5_type_utils, tweed5_utils, tweed5_weaver_pojo, tweed5_weaver_pojo_attributes_extension, tweed5_weaver_pojo_presets_extension, tweed5_weaver_pojo_serde_extension, tweed5_weaver_pojo_validation_extension, xaerolib, xaerominimap, xaeroworldmap, yet_another_config_lib_v3)
+[21:30:50] [Worker-ResourceReload-0/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[21:30:50] [Worker-ResourceReload-1/WARN]: File naturalist:sounds/mob/giraffe/idle.ogg does not exist, cannot add it to event naturalist:entity.giraffe.ambient
+[21:30:50] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[21:30:50] [Render thread/INFO]: Cached all modded block culling states
+[21:30:50] [Worker-Main-2/ERROR]: GET request failed. Response Code: 301
+[21:30:50] [Render thread/INFO]: Start loading plugin from Jade
+[21:30:51] [Render thread/INFO]: Start loading plugin from Jade
+[21:30:51] [Render thread/INFO]: Start loading plugin from Jade
+[21:30:51] [Render thread/INFO]: Start loading plugin from Jade Addons
+[21:30:51] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[21:30:51] [Render thread/INFO]: New world map region cache hash code: -1578492949
+[21:30:51] [Render thread/INFO]: Registered player tracker system: map_synced
+[21:30:51] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[21:30:51] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[21:30:51] [Render thread/INFO]: No Optifine!
+[21:30:51] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[21:30:52] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[21:30:52] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[21:30:52] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[21:30:52] [Render thread/INFO]: No Optifine!
+[21:30:52] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[21:30:52] [Render thread/INFO]: Loading XaeroLib common 2/2!
+[21:30:52] [Render thread/INFO]: Loading XaeroLib client 2/2!
+[21:30:53] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[21:30:53] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:30:53] [Render thread/WARN]: Missing sound for event: naturalist:tortoise_hurt
+[21:30:53] [Render thread/WARN]: Missing sound for event: naturalist:tortoise_death
+[21:30:53] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[21:30:53] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[21:30:53] [Render thread/INFO]: Sound engine started
+[21:30:53] [Render thread/INFO]: Created: 1024x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/particle.json
+[21:30:53] [Render thread/INFO]: FOUND PATH owo:shaders/core/spectrum.json
+[21:30:53] [Render thread/INFO]: FOUND PATH owo:shaders/core/blur.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_color.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_color_lightmap.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_color_tex.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_color_tex_lightmap.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_tex.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_tex_color.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_tex_color_normal.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/position_tex_lightmap_color.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_solid.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_cutout_mipped.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_cutout.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_translucent.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_translucent_moving_block.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_translucent_no_crumbling.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_armor_cutout_no_cull.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_solid.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_cutout.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_cutout_no_cull.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_cutout_no_cull_z_offset.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_item_entity_translucent_cull.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_translucent_cull.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_translucent.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_translucent_emissive.json
+[21:30:53] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_smooth_cutout.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_beacon_beam.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_decal.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_no_outline.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_shadow.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_alpha.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_eyes.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_energy_swirl.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_leash.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_water_mask.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_outline.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_armor_glint.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_armor_entity_glint.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_glint_translucent.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_glint.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_glint_direct.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_glint.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_entity_glint_direct.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text_background.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text_intensity.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text_see_through.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text_background_see_through.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_text_intensity_see_through.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_lightning.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_tripwire.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_end_portal.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_end_gateway.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_lines.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_crumbling.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui_overlay.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui_text_highlight.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/rendertype_gui_ghost_recipe_overlay.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/enhancedvisuals:position_tex_col_smooth.json
+[21:30:53] [Render thread/INFO]: 26680 cache(s) where cleared!
+[21:30:53] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:30:53] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/framebuffer_lines.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/position_color_tex.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/position_color_tex_pre.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/position_color.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/position_color_no_alpha_test.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/pos_tex_no_alpha_test.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/pos_tex_no_alpha_test_no_blend.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/pos_tex_alpha_test.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/pos_tex_alpha_test_no_blend.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/pos_tex_icon_outline.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/map.json
+[21:30:53] [Render thread/INFO]: FOUND PATH shaders/core/xaerolib/map_branch.json
+[21:30:53] [Render thread/INFO]: Successfully reloaded the XaeroLib shaders!
+[21:30:55] [Render thread/WARN]: Game took 21.312 seconds to start
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/tw_mangrove_tower as it is missing following references: twilightforest:swamp (from fabric), twilightforest:fire_swamp (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from fabric), blue_skies:shaded_woodlands (from fabric), blue_skies:crystal_dunes (from fabric), blue_skies:crystal_dunes_spikes (from fabric), blue_skies:sunset_maple_forest (from fabric), blue_skies:rising_creek (from fabric), blue_skies:crystal_roughs (from fabric), blue_skies:searing_grassland (from fabric), blue_skies:crescent_orchard (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/tw_canopy_tower as it is missing following references: twilightforest:forest (from fabric), twilightforest:spooky_forest (from fabric), twilightforest:mushroom_forest (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from fabric), blue_skies:brightlands (from fabric), blue_skies:slushlands (from fabric), blue_skies:frostbitten_forest (from fabric), blue_skies:frostbitten_forest_clearing (from fabric), blue_skies:snow_covered_pines (from fabric), blue_skies:brisk_meadow (from fabric), blue_skies:polar_highland (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from fabric), ad_astra:martian_wastelands (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from fabric), ad_astra:glacio_ice_peaks (from fabric)
+[21:31:00] [Worker-ResourceReload-8/ERROR]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from fabric)
+[21:31:05] [Render thread/INFO]: Loaded 8 recipes
+[21:31:05] [Render thread/ERROR]: Parsing error loading custom advancement totw_modded:root: Expected item to be an item, was unknown string 'waystones:mossy_waystone'
+[21:31:05] [Render thread/ERROR]: Couldn't load advancement totw_modded:regular_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.class_185@7799133d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@3c13517b}, criteria={regular=net.minecraft.class_175@4da74f5d}, requirements=[[regular]], sends_telemetry_event=false}
+[21:31:05] [Render thread/ERROR]: Couldn't load advancement totw_modded:jungle_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.class_185@416ebdad, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@3c13517b}, criteria={jungle=net.minecraft.class_175@3644df7a}, requirements=[[jungle]], sends_telemetry_event=false}
+[21:31:05] [Render thread/ERROR]: Couldn't load advancement totw_modded:derelict_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.class_185@46968315, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@3c13517b}, criteria={derelict=net.minecraft.class_175@56392bb2}, requirements=[[derelict]], sends_telemetry_event=false}
+[21:31:05] [Render thread/ERROR]: Couldn't load advancement totw_modded:ice_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.class_185@78576253, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@3c13517b}, criteria={ice=net.minecraft.class_175@672cb250}, requirements=[[ice]], sends_telemetry_event=false}
+[21:31:05] [Render thread/ERROR]: Couldn't load advancement totw_modded:derelict_grass_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.class_185@7bdebde7, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@3c13517b}, criteria={derelict_grass=net.minecraft.class_175@79622efe}, requirements=[[derelict_grass]], sends_telemetry_event=false}
+[21:31:05] [Render thread/INFO]: Loaded 1522 advancements
+[21:31:05] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/tw_canopy_tower, totw_modded:has_structure/tw_mangrove_tower, totw_modded:has_structure/venus_tower
+[21:31:05] [Render thread/ERROR]: Invalid path in mod resource-pack jadeaddons: jadeaddons:jade/target_modifier/supplementaries/trapped_present.json?, ignoring
+[21:31:05] [Render thread/WARN]: Initial datapack load took 6.192 s
+[21:31:14] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[21:31:14] [Thread-6/INFO]: [EMI] Clearing data
+[21:31:15] [Render thread/INFO]: Applied 1798 biome modifications to 170 of 171 new biomes in 30.84 ms
+[21:31:15] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[21:31:15] [Server thread/INFO]: Generating keypair
+[21:31:15] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[21:31:17] [Worker-Main-6/INFO]: Instantiating Mojang DFU
+[21:31:18] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 136 milliseconds
+[21:31:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:31:20] [Render thread/INFO]: Preparando zona de aparición: 0%
+[21:31:20] [Render thread/INFO]: Preparando zona de aparición: 0%
+[21:31:21] [Render thread/INFO]: Preparando zona de aparición: 0%
+[21:31:21] [Render thread/INFO]: Preparando zona de aparición: 0%
+[21:31:22] [Render thread/INFO]: Preparando zona de aparición: 2%
+[21:31:22] [Render thread/INFO]: Preparando zona de aparición: 4%
+[21:31:23] [Render thread/INFO]: Preparando zona de aparición: 6%
+[21:31:23] [Render thread/INFO]: Preparando zona de aparición: 8%
+[21:31:24] [Render thread/INFO]: Preparando zona de aparición: 10%
+[21:31:24] [Render thread/INFO]: Preparando zona de aparición: 12%
+[21:31:25] [Render thread/INFO]: Preparando zona de aparición: 16%
+[21:31:25] [Render thread/INFO]: Preparando zona de aparición: 19%
+[21:31:26] [Render thread/INFO]: Preparando zona de aparición: 22%
+[21:31:26] [Render thread/INFO]: Preparando zona de aparición: 23%
+[21:31:27] [Render thread/INFO]: Preparando zona de aparición: 27%
+[21:31:27] [Render thread/INFO]: Preparando zona de aparición: 31%
+[21:31:28] [Render thread/INFO]: Preparando zona de aparición: 33%
+[21:31:28] [Render thread/INFO]: Preparando zona de aparición: 37%
+[21:31:29] [Render thread/INFO]: Preparando zona de aparición: 40%
+[21:31:29] [Render thread/INFO]: Preparando zona de aparición: 44%
+[21:31:30] [Render thread/INFO]: Preparando zona de aparición: 47%
+[21:31:30] [Render thread/INFO]: Preparando zona de aparición: 50%
+[21:31:31] [Render thread/INFO]: Preparando zona de aparición: 54%
+[21:31:31] [Render thread/INFO]: Preparando zona de aparición: 57%
+[21:31:32] [Render thread/INFO]: Preparando zona de aparición: 60%
+[21:31:32] [Render thread/INFO]: Preparando zona de aparición: 65%
+[21:31:32] [Server thread/INFO]: Possible lunar events for dimension "minecraft:overworld" are [enhancedcelestials:harvest_moon, enhancedcelestials:super_blue_moon, enhancedcelestials:blood_moon, enhancedcelestials:super_blood_moon, enhancedcelestials:super_moon, enhancedcelestials:super_harvest_moon, enhancedcelestials:blue_moon].
+[21:31:33] [Render thread/INFO]: Preparando zona de aparición: 68%
+[21:31:33] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Worker-Main-7/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Worker-Main-7/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Worker-Main-7/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:33] [Render thread/INFO]: Preparando zona de aparición: 71%
+[21:31:34] [Render thread/INFO]: Preparando zona de aparición: 73%
+[21:31:34] [Render thread/INFO]: Preparando zona de aparición: 75%
+[21:31:35] [Render thread/INFO]: Preparando zona de aparición: 80%
+[21:31:35] [Render thread/INFO]: Preparando zona de aparición: 83%
+[21:31:36] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:36] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:31:36] [Render thread/INFO]: Preparando zona de aparición: 85%
+[21:31:36] [Render thread/INFO]: Preparando zona de aparición: 91%
+[21:31:37] [Render thread/INFO]: Preparando zona de aparición: 93%
+[21:31:37] [Render thread/INFO]: Preparando zona de aparición: 96%
+[21:31:37] [Render thread/INFO]: Time elapsed: 17769 ms
+[21:31:37] [Server thread/INFO]: Encoded Weapon Attribute registry size: 109273 bytes (uncompressed), 6100 bytes (compressed), compression ratio: 94.4% (in 1 string chunks with the size of 10000)
+[21:31:37] [Server thread/INFO]: Registered synced player tracker system: ftb_teams
+[21:31:37] [Server thread/INFO]: Registered synced player tracker system: ftb_teams
+[21:31:38] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:31:38] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[21:31:38] [Server thread/INFO]: [Handshake] Sending channel query
+[21:31:38] [Netty Local Client IO #0/INFO]: [Handshake] Sending client channels
+[21:31:38] [Netty Server IO #1/INFO]: [Handshake] Receiving client channels
+[21:31:38] [Netty Server IO #1/INFO]: [Handshake] Handshake completed successfully
+[21:31:38] [Server thread/INFO]: j0pezera[local:E:ad48a130] logged in with entity id 147 at (138.5, 76.0, -162.5)
+[21:31:38] [Server thread/INFO]: Sending server config values to client
+[21:31:38] [Netty Local Client IO #0/INFO]: Applying server overrides
+[21:31:38] [Netty Local Client IO #0/INFO]: Responding with client values
+[21:31:38] [Netty Server IO #1/INFO]: Receiving client config
+[21:31:38] [Server thread/INFO]: Player connected to a local world, not setting up proxy config
+[21:31:38] [Netty Local Client IO #0/INFO]: Decoded and decompressed Weapon Attribute registry in 1 string chunks
+[21:31:38] [Server thread/INFO]: Syncing config to j0pezera (01755ea9-197a-4f30-b428-62436ab02146)
+[21:31:38] [Server thread/INFO]: j0pezera se conectó
+[21:31:38] [Render thread/INFO]: Minimap required item set to nothing.
+[21:31:38] [Render thread/INFO]: New Xaero hud session initialized!
+[21:31:38] [Render thread/INFO]: Fullscreen map required item set to nothing.
+[21:31:38] [Render thread/INFO]: New world map session initialized!
+[21:31:38] [Netty Local Client IO #0/INFO]: Read 559 bytes, 1 objects
+[21:31:38] [Netty Local Client IO #0/INFO]: Server has said hello! Hi Server :)
+[21:31:38] [Render thread/INFO]: Started 6 worker threads
+[21:31:39] [Render thread/INFO]: [Inventory Profiles Next] Loaded 0 external GUI hints
+[21:31:39] [Render thread/INFO]: [Inventory Profiles Next] Loaded 798 build-in GUI hints
+[21:31:39] [Render thread/INFO]: [Inventory Profiles Next] Effective GUI hints after merge: 798
+[21:31:39] [Render thread/INFO]: [EMI] Joining server, EMI waiting for data from server...
+[21:31:39] [Render thread/INFO]: Received config from the server: 
+[21:31:39] [Render thread/INFO]: [EMI] Tags synchronized, waiting for recipes to reload EMI...
+[21:31:39] [Render thread/INFO]: [EMI] Recipes synchronized, reloading EMI
+[21:31:39] [Render thread/INFO]: [EMI] Starting Reload
+[21:31:39] [Thread-13/INFO]: [EMI] Starting EMI reload...
+[21:31:39] [Thread-13/INFO]: [EMI] Clearing data
+[21:31:39] [Render thread/ERROR]: Invalid path in mod resource-pack jadeaddons: jadeaddons:jade/target_modifier/supplementaries/trapped_present.json?, ignoring
+[21:31:39] [Render thread/INFO]: Minimap updated server level id: -113808051 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[21:31:39] [Thread-13/INFO]: [EMI] Initializing plugin from emi
+[21:31:39] [Thread-13/INFO]: [EMI] Initialized plugin from emi in 14ms
+[21:31:39] [Thread-13/INFO]: [EMI] Initializing plugin from owo
+[21:31:39] [Thread-13/INFO]: [EMI] Initialized plugin from owo in 0ms
+[21:31:39] [Thread-13/INFO]: [EMI] Initializing plugin from trinkets
+[21:31:39] [Thread-13/INFO]: [EMI] Initialized plugin from trinkets in 0ms
+[21:31:39] [Thread-13/INFO]: [EMI] Processing tags
+[21:31:39] [Thread-13/INFO]: [EMI] Constructing index
+[21:31:39] [Thread-13/INFO]: [EMI] Reloading item groups on client thread...
+[21:31:39] [Render thread/INFO]: Possible lunar events for dimension "minecraft:overworld" are [enhancedcelestials:harvest_moon, enhancedcelestials:super_blue_moon, enhancedcelestials:blood_moon, enhancedcelestials:super_blood_moon, enhancedcelestials:super_moon, enhancedcelestials:super_harvest_moon, enhancedcelestials:blue_moon].
+[21:31:39] [Render thread/INFO]: Loading FTB Chunks client data from world 9de85bb1-cf35-47a1-9d3f-f02ba855ec10
+[21:31:39] [Render thread/INFO]: Loaded 62 advancements
+[21:31:39] [Thread-13/INFO]: [EMI] Reloading item groups on client thread took 252ms
+[21:31:39] [Thread-13/INFO]: [EMI] Loading plugin from emi
+[21:31:39] [Thread-13/INFO]: [EMI] Reloaded plugin from emi in 191ms
+[21:31:39] [Thread-13/INFO]: [EMI] Loading plugin from owo
+[21:31:39] [Thread-13/INFO]: [EMI] Reloaded plugin from owo in 1ms
+[21:31:39] [Thread-13/INFO]: [EMI] Loading plugin from trinkets
+[21:31:39] [Thread-13/INFO]: [EMI] Reloaded plugin from trinkets in 0ms
+[21:31:39] [Thread-13/INFO]: [EMI] Baking index
+[21:31:39] [Thread-13/INFO]: [EMI] Registering late recipes
+[21:31:39] [Thread-13/INFO]: [EMI] Baking recipes
+[21:31:39] [Thread-13/INFO]: [EMI] Baked 3951 recipes in 71ms
+[21:31:39] [Thread-13/INFO]: [EMI] Baking search
+[21:31:39] [Render thread/INFO]: FOUND PATH shaders/core/clouds.json
+[21:31:39] [Thread-14/INFO]: [EMI] Baked recipes after reload in 70ms
+[21:31:39] [Render thread/INFO]: Reloading radar icon resources...
+[21:31:39] [Render thread/INFO]: Reloaded radar icon resources!
+[21:31:40] [Thread-13/INFO]: [EMI] Finishing up
+[21:31:40] [Thread-13/INFO]: [EMI] Reloaded EMI in 1042ms
+[21:31:40] [Render thread/WARN]: Time from main menu to in-game was 25.356125 seconds
+[21:31:40] [Render thread/WARN]: Total time to load game and open world was 46.668125 seconds
+[21:31:40] [Render thread/INFO]: [System] [CHAT] Hello, thank you for downloading Terralith!\n\n- Stardust Labs Discord (for Terralith)\n- Bisect Hosting (our server hosting partner)\n- Disable this message (mod/datapack)\n 
+[21:31:40] [Server thread/INFO]: Saving and pausing game...
+[21:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:31:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:31:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:32:43] [Render thread/INFO]: Loaded 71 advancements
+[21:32:48] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[21:33:11] [Server thread/INFO]: Saving and pausing game...
+[21:33:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:33:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:33:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:33:12] [Worker-Main-1/WARN]: Non-existent template pool reference: structory:harvest/well_bottoms
+[21:33:35] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:35] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:35] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:35] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:35] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:36] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:36] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:36] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:37] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:37] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:37] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:37] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:37] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:38] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:38] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:38] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:38] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:39] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:39] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:39] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:42] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:43] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:44] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:45] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:46] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:47] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:48] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Giraffe -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:49] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:50] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:33:50] [Render thread/INFO]: [STDOUT]: Sound Keyframe found for Lion -> controller, but no keyframe handler registered
+[21:34:15] [Worker-Main-2/ERROR]: Signature is missing from Property textures
+[21:35:27] [Render thread/INFO]: [EMI] Discovered Sodium
+[21:35:27] [Render thread/WARN]: Class dev.emi.emi.screen.StackBatcher$UnlitFacade$Consumer does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[21:35:36] [Render thread/INFO]: Loaded 72 advancements
+[21:35:52] [Server thread/INFO]: j0pezera acaba de conseguir el progreso [¡DIAMANTES!]
+[21:35:52] [Render thread/INFO]: [System] [CHAT] j0pezera acaba de conseguir el progreso [¡DIAMANTES!]
+[21:35:52] [Render thread/INFO]: Loaded 91 advancements
+[21:38:01] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 2510?s!
+[21:38:03] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 975?s!
+[21:38:05] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 90?s!
+[21:38:07] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 907?s!
+[21:38:12] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 742?s!
+[21:38:15] [Server thread/INFO]: Saving and pausing game...
+[21:38:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:38:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:38:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:39:37] [FTBLibrary-ItemSearch/INFO]: Done updating item list in 646?s!
+[21:40:11] [Server thread/INFO]: Saving and pausing game...
+[21:40:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:40:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:40:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:40:56] [Render thread/WARN]: Class xaero.hud.minimap.radar.icon.creator.render.form.model.part.RadarIconModelPartPrerenderer$VertexConsumerWrapper does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[21:41:20] [Render thread/INFO]: Loaded 92 advancements
+[21:41:31] [Server thread/INFO]: Saving and pausing game...
+[21:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:41:32] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[21:41:32] [Netty Local Client IO #0/INFO]: Disconnected from server, resetting proxy config values
+[21:41:32] [Thread-20/INFO]: [EMI] Clearing data
+[21:41:32] [Netty Local Client IO #0/INFO]: Mouse Wheelie feature session ended
+[21:41:32] [Render thread/INFO]: Xaero hud session finalized.
+[21:41:32] [Render thread/INFO]: Finalizing world map session...
+[21:41:32] [Thread-2/INFO]: World map force-cleaned!
+[21:41:32] [Render thread/INFO]: World map session finalized.
+[21:41:32] [Server thread/INFO]: j0pezera lost connection: Desconectado/a
+[21:41:32] [Server thread/INFO]: j0pezera se desconectó
+[21:41:32] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:41:32] [Server thread/INFO]: Stopping server
+[21:41:32] [Server thread/INFO]: Saving players
+[21:41:32] [Server thread/INFO]: Saving worlds
+[21:41:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[21:41:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[21:41:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[21:41:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mundo nuevo (4)): All chunks are saved
+[21:41:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:41:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:41:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:41:34] [Render thread/INFO]: Stopping worker threads
+[21:41:35] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[21:41:35] [Render thread/INFO]: Stopping!
+[21:41:35] [Render thread/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[21:41:35] [Thread-24/INFO]: [EMI] Clearing data
+[21:41:35] [Render thread/INFO]: Shutting down map thread

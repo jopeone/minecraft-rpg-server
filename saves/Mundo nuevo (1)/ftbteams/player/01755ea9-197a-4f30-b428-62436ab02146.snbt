@@ -1,0 +1,17 @@
+{
+	id: "01755ea9-197a-4f30-b428-62436ab02146"
+	type: "player"
+	player_name: "j0pezera"
+	ranks: {
+		01755ea9-197a-4f30-b428-62436ab02146: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "j0pezera"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5971FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

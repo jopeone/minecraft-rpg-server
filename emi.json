@@ -1,0 +1,25 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:1s}]}"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:carrot",
+        "amount": 3
+      }
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:cut_copper_slab"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
