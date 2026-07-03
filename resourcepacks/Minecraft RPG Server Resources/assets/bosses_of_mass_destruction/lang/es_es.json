@@ -1,0 +1,127 @@
+{
+  "entity.bosses_of_mass_destruction.comet": "Cometa",
+  "entity.bosses_of_mass_destruction.lich": "Liche Nocturno",
+  "entity.bosses_of_mass_destruction.blue_fireball": "Bola de Hielo",
+  "entity.bosses_of_mass_destruction.soul_star": "Estrella de Alma",
+  "entity.bosses_of_mass_destruction.obsidilith": "Obsidílito",
+  "entity.bosses_of_mass_destruction.gauntlet": "Guantelete del Nether",
+  "entity.bosses_of_mass_destruction.void_blossom": "Flor del Vacío",
+  "entity.bosses_of_mass_destruction.spore_ball": "Espora",
+  "entity.bosses_of_mass_destruction.petal_blade": "Hoja de Pétalo",
+
+  "block.bosses_of_mass_destruction.obsidilith_end_frame": "Altar de Obsidiana",
+  "block.bosses_of_mass_destruction.obsidilith_rune": "Runa de Obsidiana",
+  "block.bosses_of_mass_destruction.sealed_blackstone": "Ladrillos Sellados de Piedra Negra",
+  "block.bosses_of_mass_destruction.gauntlet_blackstone": "Piedra Negra Tallada Antigua",
+  "block.bosses_of_mass_destruction.chiseled_stone_altar": "Altar de Piedra Cincelada",
+  "block.bosses_of_mass_destruction.void_blossom_block": "Invocador de la Flor del Vacío",
+  "block.bosses_of_mass_destruction.void_lily": "Lirio del Vacío",
+  "block.bosses_of_mass_destruction.void_lily.tooltip": "¿Hacia dónde conduce el polen?",
+  "block.bosses_of_mass_destruction.void_blossom": "Flor del Vacío",
+  "block.bosses_of_mass_destruction.vine_wall": "Muro de Zarzas",
+
+  "itemGroup.bosses_of_mass_destruction.items": "Bosses of Mass Destruction",
+
+  "item.bosses_of_mass_destruction.soul_star": "Estrella de Alma",
+  "item.bosses_of_mass_destruction.soul_star.tooltip": "¿Hacia dónde conduce?",
+  "item.bosses_of_mass_destruction.ancient_anima": "Ánima Antigua",
+  "item.bosses_of_mass_destruction.blazing_eye": "Ojo Ardiente",
+  "item.bosses_of_mass_destruction.obsidian_heart": "Corazón de Obsidiana",
+  "item.bosses_of_mass_destruction.void_thorn": "Espina del Vacío",
+  "item.bosses_of_mass_destruction.crystal_fruit": "Fruta Cristalina",
+  "item.bosses_of_mass_destruction.crystal_fruit.tooltip": "Otorga regeneración y resistencia breves",
+  "item.bosses_of_mass_destruction.charged_ender_pearl": "Perla de Ender Cargada",
+  "item.bosses_of_mass_destruction.charged_ender_pearl.tooltip": "Reutilizable y otorga brevemente",
+  "item.bosses_of_mass_destruction.charged_ender_pearl.tooltip2": "resistencia tras teletransportarte",
+  "item.bosses_of_mass_destruction.crafting_material.tooltip": "Material de fabricación",
+  "item.bosses_of_mass_destruction.brimstone_nectar": "Néctar de Azufre",
+  "item.bosses_of_mass_destruction.brimstone_nectar.tooltip": "Restablece las estructuras de los jefes cercanos al usarlo",
+
+  "block.bosses_of_mass_destruction.mob_ward": "Bastón de Supresión",
+  "item.bosses_of_mass_destruction.mob_ward.tooltip": "Al colocarlo, evita la aparición de criaturas en un radio de 64 bloques",
+
+  "block.bosses_of_mass_destruction.monolith_block": "Amplificador de Explosiones",
+  "item.bosses_of_mass_destruction.monolith_block.tooltip_0": "Al colocarlo, aumenta un 30% el poder de las explosiones",
+  "item.bosses_of_mass_destruction.monolith_block.tooltip_1": "en un radio de 64 bloques. Este efecto no se acumula",
+
+  "block.bosses_of_mass_destruction.levitation_block": "Mesa de Elevación",
+  "item.bosses_of_mass_destruction.levitation_block.tooltip": "Al colocarla, permite volar como en Creativo dentro de una columna de 7x7",
+
+  "item.bosses_of_mass_destruction.earthdive_spear": "Lanza Terraperforadora",
+  "item.bosses_of_mass_destruction.earthdive_spear.tooltip": "Permite teletransportarte a corta distancia atravesando bloques sólidos",
+
+  "advancements.nether.gauntlet_defeat.title": "A través del Guantelete",
+  "advancements.nether.gauntlet_defeat.description": "Derrota al jefe Guantelete del Nether",
+
+  "advancements.end.obsidilith_defeat.title": "Aniquilador de Obsidiana",
+  "advancements.end.obsidilith_defeat.description": "Derrota al jefe Obsidílito",
+
+  "advancements.adventure.night_lich_defeat.title": "Conquistador de la Noche",
+  "advancements.adventure.night_lich_defeat.description": "Derrota al jefe Liche Nocturno",
+
+  "advancements.adventure.void_blossom_defeat.title": "Jardinería Extrema",
+  "advancements.adventure.void_blossom_defeat.description": "Derrota al jefe Flor del Vacío"
+  "subtitles.bosses_of_mass_destruction.entity.comet.prepare_attack": "El Cometa concentra energía",
+  "subtitles.bosses_of_mass_destruction.entity.comet.attack": "El Cometa ataca",
+  "subtitles.bosses_of_mass_destruction.entity.comet.land": "El Cometa aterriza",
+
+  "subtitles.bosses_of_mass_destruction.entity.lich.ambient": "El Liche susurra",
+  "subtitles.bosses_of_mass_destruction.entity.lich.attack": "El Liche lanza un hechizo",
+  "subtitles.bosses_of_mass_destruction.entity.lich.hurt": "El Liche recibe daño",
+  "subtitles.bosses_of_mass_destruction.entity.lich.death": "El Liche es derrotado",
+  "subtitles.bosses_of_mass_destruction.entity.lich.teleport": "El Liche se teletransporta",
+
+  "subtitles.bosses_of_mass_destruction.entity.obsidilith.awaken": "El Obsidílito despierta",
+  "subtitles.bosses_of_mass_destruction.entity.obsidilith.attack": "El Obsidílito ataca",
+  "subtitles.bosses_of_mass_destruction.entity.obsidilith.hurt": "El Obsidílito recibe daño",
+  "subtitles.bosses_of_mass_destruction.entity.obsidilith.death": "El Obsidílito es derrotado",
+  "subtitles.bosses_of_mass_destruction.entity.obsidilith.crystal": "Los cristales vibran",
+
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.idle": "El Guantelete ruge",
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.attack": "El Guantelete golpea",
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.clap": "El Guantelete aplasta",
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.smash": "El Guantelete impacta el suelo",
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.hurt": "El Guantelete recibe daño",
+  "subtitles.bosses_of_mass_destruction.entity.gauntlet.death": "El Guantelete es derrotado",
+
+  "subtitles.bosses_of_mass_destruction.entity.void_blossom.ambient": "La Flor del Vacío florece",
+  "subtitles.bosses_of_mass_destruction.entity.void_blossom.attack": "La Flor del Vacío ataca",
+  "subtitles.bosses_of_mass_destruction.entity.void_blossom.spikes": "Las espinas emergen",
+  "subtitles.bosses_of_mass_destruction.entity.void_blossom.hurt": "La Flor del Vacío recibe daño",
+  "subtitles.bosses_of_mass_destruction.entity.void_blossom.death": "La Flor del Vacío se marchita",
+
+  "subtitles.bosses_of_mass_destruction.entity.soul_star.fly": "La Estrella de Alma silba",
+
+  "subtitles.bosses_of_mass_destruction.block.void_lily.break": "El Lirio del Vacío se rompe",
+
+  "subtitles.bosses_of_mass_destruction.item.charged_ender_pearl.use": "La Perla de Ender Cargada se activa"
+
+"text.autoconfig.bosses_of_mass_destruction.title": "Configuración de Bosses of Mass Destruction",
+
+  "text.autoconfig.bosses_of_mass_destruction.category.general": "General",
+  "text.autoconfig.bosses_of_mass_destruction.category.client": "Cliente",
+  "text.autoconfig.bosses_of_mass_destruction.category.server": "Servidor",
+  "text.autoconfig.bosses_of_mass_destruction.category.spawn": "Generación",
+  "text.autoconfig.bosses_of_mass_destruction.category.items": "Objetos",
+  "text.autoconfig.bosses_of_mass_destruction.category.bosses": "Jefes",
+
+  "text.autoconfig.bosses_of_mass_destruction.option.voidBlossomSpawn": "Generación de la Flor del Vacío",
+  "text.autoconfig.bosses_of_mass_destruction.option.lichSpawn": "Generación del Liche Nocturno",
+  "text.autoconfig.bosses_of_mass_destruction.option.gauntletSpawn": "Generación del Guantelete del Nether",
+  "text.autoconfig.bosses_of_mass_destruction.option.obsidilithSpawn": "Generación del Obsidílito",
+
+  "text.autoconfig.bosses_of_mass_destruction.option.enableStructures": "Generar estructuras de los jefes",
+  "text.autoconfig.bosses_of_mass_destruction.option.enableLoot": "Habilitar botines",
+  "text.autoconfig.bosses_of_mass_destruction.option.enableMusic": "Reproducir música durante los combates",
+  "text.autoconfig.bosses_of_mass_destruction.option.enableParticles": "Mostrar partículas especiales",
+
+  "text.autoconfig.bosses_of_mass_destruction.option.bossHealthMultiplier": "Multiplicador de vida de los jefes",
+  "text.autoconfig.bosses_of_mass_destruction.option.bossDamageMultiplier": "Multiplicador de daño de los jefes",
+  "text.autoconfig.bosses_of_mass_destruction.option.structureSpacing": "Distancia entre estructuras",
+  "text.autoconfig.bosses_of_mass_destruction.option.respawnTime": "Tiempo de reaparición",
+  "text.autoconfig.bosses_of_mass_destruction.option.mobGriefing": "Permitir que los jefes destruyan bloques",
+
+  "text.autoconfig.bosses_of_mass_destruction.option.tooltip.structureSpacing": "Valores mayores generan las estructuras con menos frecuencia.",
+  "text.autoconfig.bosses_of_mass_destruction.option.tooltip.respawnTime": "Tiempo de espera antes de que un jefe pueda reaparecer.",
+  "text.autoconfig.bosses_of_mass_destruction.option.tooltip.mobGriefing": "Si está activado, algunos ataques de los jefes pueden destruir bloques."
+}

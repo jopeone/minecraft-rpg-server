@@ -1,0 +1,148 @@
+{
+  "filled_map.dungeons_arise:monastery": "Mapa del Explorador: Monasterio",
+  "filled_map.dungeons_arise:illager_campsite": "Mapa del Explorador: Campamento de Saqueadores",
+  "filled_map.dungeons_arise:illager_castle": "Mapa del Explorador: Castillo de Saqueadores",
+  "filled_map.dungeons_arise:illager_hall": "Mapa del Explorador: Salón de los Saqueadores",
+  "filled_map.dungeons_arise:illager_fort": "Mapa del Explorador: Fuerte de Saqueadores",
+  "filled_map.dungeons_arise:abandoned_temple": "Mapa del Explorador: Templo Abandonado",
+  "filled_map.dungeons_arise:lighthouse": "Mapa del Explorador: Faro",
+  "filled_map.dungeons_arise:mushroom_mines": "Mapa del Explorador: Minas de Hongos",
+  "filled_map.dungeons_arise:mushroom_village": "Mapa del Explorador: Aldea de Hongos",
+  "filled_map.dungeons_arise:coliseum": "Mapa del Explorador: Coliseo",
+  "filled_map.dungeons_arise:fishing_hut": "Mapa del Explorador: Cabaña de Pesca",
+  "filled_map.dungeons_arise:small_prairie_house": "Mapa del Explorador: Casa de la Pradera",
+  "filled_map.dungeons_arise:wishing_well": "Mapa del Explorador: Pozo de los Deseos",
+  "filled_map.dungeons_arise:merchant_campsite": "Mapa del Explorador: Campamento de Mercaderes",
+  "filled_map.dungeons_arise:infested_temple": "Mapa del Explorador: Templo Infestado",
+  "filled_map.dungeons_arise:heavenly_rider": "Mapa del Explorador: Jinete Celestial",
+  "filled_map.dungeons_arise:mining_system": "Mapa del Explorador: Sistema Minero",
+  "filled_map.dungeons_arise:heavenly_conqueror": "Mapa del Explorador: Conquistador Celestial",
+  "filled_map.dungeons_arise:scorched_mines": "Mapa: Minas Calcinadas",
+  "filled_map.dungeons_arise:undead_pirate_ship": "Mapa del Explorador: Barco Pirata No Muerto",
+  "filled_map.dungeons_arise:foundry": "Mapa del Explorador: Fundición",
+  "filled_map.dungeons_arise:small_blimp": "Mapa del Explorador: Dirigible Pequeño",
+  "filled_map.dungeons_arise:bandit_village": "Mapa del Explorador: Aldea de Bandidos",
+  "filled_map.dungeons_arise:typhon": "Mapa del Explorador: Typhon",
+  "filled_map.dungeons_arise:ceryneian_hind": "Mapa del Explorador: Cierva de Cerinia",
+  "filled_map.dungeons_arise:heavenly_challenger": "Mapa del Explorador: Retador Celestial",
+  "filled_map.dungeons_arise:illager_corsair": "Mapa del Explorador: Corsario Saqueador",
+  "filled_map.dungeons_arise:illager_galley": "Mapa del Explorador: Galera Saqueadora",
+  "filled_map.dungeons_arise:mushroom_house": "Mapa del Explorador: Casa de Hongos",
+
+  "advancement.dungeons_arise.wda_root.title": "When Dungeons Arise",
+  "advancement.dungeons_arise.wda_root.desc": "Las mazmorras surgen en un nuevo mundo",
+
+  "advancement.dungeons_arise.find_abandoned_temple.title": "Templo Perdido",
+  "advancement.dungeons_arise.find_abandoned_temple.desc": "Encuentra un Templo Abandonado",
+
+  "advancement.dungeons_arise.find_aviary.title": "Tres Pajaritos",
+  "advancement.dungeons_arise.find_aviary.desc": "Encuentra un Aviario",
+
+  "advancement.dungeons_arise.find_bandit_towers.title": "Torres de Bandidos",
+  "advancement.dungeons_arise.find_bandit_towers.desc": "Encuentra las Torres de Bandidos",
+
+  "advancement.dungeons_arise.find_bandit_village.title": "Aldea de Bandidos",
+  "advancement.dungeons_arise.find_bandit_village.desc": "Encuentra una Aldea de Bandidos",
+
+  "advancement.dungeons_arise.find_ceryneian_hind.title": "¿Quién Mató a Esta Criatura?",
+  "advancement.dungeons_arise.find_ceryneian_hind.desc": "Encuentra la Cierva de Cerinia",
+
+  "advancement.dungeons_arise.find_coliseum.title": "Gloria Eterna",
+  "advancement.dungeons_arise.find_coliseum.desc": "Encuentra un Coliseo",
+
+  "advancement.dungeons_arise.find_fishing_hut.title": "Pesca Nocturna",
+  "advancement.dungeons_arise.find_fishing_hut.desc": "Encuentra una Cabaña de Pesca",
+
+  "advancement.dungeons_arise.find_foundry.title": "La Fundición",
+  "advancement.dungeons_arise.find_foundry.desc": "Encuentra una Fundición",
+
+  "advancement.dungeons_arise.find_giant_mushroom.title": "Gigante del Bosque",
+  "advancement.dungeons_arise.find_giant_mushroom.desc": "Encuentra un Hongo Gigante",
+
+  "advancement.dungeons_arise.find_heavenly_challenger.title": "Retador Celestial",
+  "advancement.dungeons_arise.find_heavenly_challenger.desc": "Encuentra al Retador Celestial",
+
+  "advancement.dungeons_arise.find_heavenly_conqueror.title": "Conquistador Celestial",
+  "advancement.dungeons_arise.find_heavenly_conqueror.desc": "Encuentra al Conquistador Celestial",
+
+  "advancement.dungeons_arise.find_heavenly_rider.title": "Jinete Celestial",
+  "advancement.dungeons_arise.find_heavenly_rider.desc": "Encuentra al Jinete Celestial",
+
+  "advancement.dungeons_arise.find_illager_campsite.title": "Campamento Saqueador",
+  "advancement.dungeons_arise.find_illager_campsite.desc": "Encuentra un Campamento de Saqueadores",
+
+  "advancement.dungeons_arise.find_illager_corsair_or_illager_galley.title": "Piratas Saqueadores",
+  "advancement.dungeons_arise.find_illager_corsair_or_illager_galley.desc": "Encuentra un Corsario o una Galera de Saqueadores",
+
+  "advancement.dungeons_arise.find_illager_fort.title": "Fuerte Saqueador",
+  "advancement.dungeons_arise.find_illager_fort.desc": "Encuentra un Fuerte de Saqueadores",
+
+  "advancement.dungeons_arise.find_illager_windmill.title": "Molino Saqueador",
+  "advancement.dungeons_arise.find_illager_windmill.desc": "Encuentra un Molino de Saqueadores",
+
+  "advancement.dungeons_arise.find_infested_temple.title": "Templo Infestado",
+  "advancement.dungeons_arise.find_infested_temple.desc": "Encuentra un Templo Infestado",
+
+  "advancement.dungeons_arise.find_infested_temple_map.title": "El Camino Comienza",
+  "advancement.dungeons_arise.find_infested_temple_map.desc": "Obtén un mapa hacia un Templo Infestado",
+
+  "advancement.dungeons_arise.find_lighthouse.title": "El Faro",
+  "advancement.dungeons_arise.find_lighthouse.desc": "Llega a un Faro",
+
+  "advancement.dungeons_arise.find_merchant_campsite.title": "Mercader Ambulante",
+  "advancement.dungeons_arise.find_merchant_campsite.desc": "Encuentra un Campamento de Mercaderes",
+
+  "advancement.dungeons_arise.find_mining_system.title": "Sistema Minero",
+  "advancement.dungeons_arise.find_mining_system.desc": "Encuentra un Sistema Minero",
+
+  "advancement.dungeons_arise.find_monasteries.title": "Lugar de Paz",
+  "advancement.dungeons_arise.find_monasteries.desc": "Encuentra un Monasterio",
+
+  "advancement.dungeons_arise.find_mushroom_house.title": "Casa de Hongos",
+  "advancement.dungeons_arise.find_mushroom_house.desc": "Encuentra una Casa de Hongos",
+
+  "advancement.dungeons_arise.find_mushroom_mines.title": "Minas de Hongos",
+  "advancement.dungeons_arise.find_mushroom_mines.desc": "Encuentra una Mina de Hongos",
+
+  "advancement.dungeons_arise.find_mushroom_village.title": "Aldea de Hongos",
+  "advancement.dungeons_arise.find_mushroom_village.desc": "Encuentra una Aldea de Hongos",
+
+  "advancement.dungeons_arise.find_plague_asylum.title": "Asilo de la Plaga",
+  "advancement.dungeons_arise.find_plague_asylum.desc": "Encuentra el Asilo de la Plaga",
+
+  "advancement.dungeons_arise.find_scorched_mines.title": "Minas Calcinadas",
+  "advancement.dungeons_arise.find_scorched_mines.desc": "Encuentra las Minas Calcinadas",
+
+  "advancement.dungeons_arise.find_shiraz_palace.title": "Palacio de Shiraz",
+  "advancement.dungeons_arise.find_shiraz_palace.desc": "Encuentra el Palacio de Shiraz",
+
+  "advancement.dungeons_arise.find_small_blimp.title": "Dirigible",
+  "advancement.dungeons_arise.find_small_blimp.desc": "Encuentra un Dirigible Pequeño",
+
+  "advancement.dungeons_arise.find_small_prairie_house.title": "Casa de la Pradera",
+  "advancement.dungeons_arise.find_small_prairie_house.desc": "Encuentra una Casa de la Pradera",
+
+  "advancement.dungeons_arise.find_thornborn_towers.title": "Torres Thornborn",
+  "advancement.dungeons_arise.find_thornborn_towers.desc": "Visita las Torres Thornborn",
+
+  "advancement.dungeons_arise.find_typhon.title": "Typhon",
+  "advancement.dungeons_arise.find_typhon.desc": "Encuentra a Typhon",
+
+  "advancement.dungeons_arise.find_undead_pirate_ship.title": "Barco Fantasma",
+  "advancement.dungeons_arise.find_undead_pirate_ship.desc": "Encuentra un Barco Pirata No Muerto",
+
+  "advancement.dungeons_arise.find_wishing_well.title": "Pozo de los Deseos",
+  "advancement.dungeons_arise.find_wishing_well.desc": "Encuentra un Pozo de los Deseos",
+
+  "advancement.dungeons_arise.find_keep_kayra.title": "Fortaleza Kayra",
+  "advancement.dungeons_arise.find_keep_kayra.desc": "Encuentra la Fortaleza Kayra",
+
+  "advancement.dungeons_arise.find_greenwood_pub.title": "Taberna Greenwood",
+  "advancement.dungeons_arise.find_greenwood_pub.desc": "Encuentra la Taberna Greenwood",
+
+  "advancement.dungeons_arise.find_bathhouse.title": "Casa de Baños",
+  "advancement.dungeons_arise.find_bathhouse.desc": "Encuentra una Casa de Baños",
+
+  "advancement.dungeons_arise.find_mechanical_nest.title": "Nido Mecánico",
+  "advancement.dungeons_arise.find_mechanical_nest.desc": "Encuentra un Nido Mecánico"
+}

@@ -54,6 +54,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -61,5 +64,11 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "balm": {
+    "jade": true
   }
 }

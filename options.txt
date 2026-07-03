@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["fabric"]
+resourcePacks:["serilum_mod_translations","vanilla","fabric","minecraft:supporteatinganimation","soulsweapons:enhanced_gow","file/Minecraft RPG Server Resources"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_ar
@@ -128,15 +128,15 @@ key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.adventurez.dragonflydown:key.keyboard.left.alt
-key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
+key_key.adventurez.dragonflydown:key.keyboard.unknown
+key_key.adventurez.dragonfirebreath:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
-key_key.enchancement.dash:key.keyboard.left.shift
-key_key.enchancement.slam:key.keyboard.left.control
-key_key.enchancement.slide:key.keyboard.left.control
-key_key.enchancement.strafe:key.keyboard.left.control
+key_key.enchancement.dash:key.keyboard.unknown
+key_key.enchancement.slam:key.keyboard.unknown
+key_key.enchancement.slide:key.keyboard.unknown
+key_key.enchancement.strafe:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
@@ -154,6 +154,16 @@ key_key.mousewheelie.all_of_kind_modifier:key.keyboard.unknown
 key_key.mousewheelie.drop_modifier:key.keyboard.unknown
 key_key.mousewheelie.deposit_modifier:key.keyboard.unknown
 key_key.mousewheelie.restock_modifier:key.keyboard.unknown
+key_key.soulsweapons.return_freyr_sword:key.keyboard.unknown
+key_key.soulsweapons.freyr_sword_stationary:key.keyboard.right.alt
+key_key.soulsweapons.collect_summons_soul_reaper:key.keyboard.v
+key_key.soulsweapons.switch_weapon:key.keyboard.unknown
+key_key.soulsweapons.keybind_ability:key.keyboard.left.alt
+key_key.soulsweapons.parry:key.keyboard.unknown
+key_key.soulsweapons.effect_shoot_moonlight:key.keyboard.h
+key_key.soulsweapons.return_thrown_weapon:key.keyboard.n
+key_key.soulsweapons.show_tooltip:key.keyboard.unknown
+key_key.soulsweapons.show_lore:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
 key_gui.xaero_zoom_in:key.keyboard.unknown
@@ -184,6 +194,8 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_key.backpack:key.keyboard.b
+key_key.backpacked.open_management:key.keyboard.v
 soundCategory_master:0.5099531767384106
 soundCategory_music:0.05201914612676056
 soundCategory_record:0.3435161751760563

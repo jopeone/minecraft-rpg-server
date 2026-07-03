@@ -1,0 +1,6 @@
+#dont touch it.
+config_version = 1
+#just some test. 
+test = some test value 
+#test of list. 
+test_list = [value1, value2, value3] 

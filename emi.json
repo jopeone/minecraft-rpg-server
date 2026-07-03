@@ -9,9 +9,16 @@
         "id": "minecraft:carrot",
         "amount": 3
       }
+    },
+    {
+      "stack": "item:graveyard:vial_of_blood{Blood:0.8000001f}"
     }
   ],
   "lookup_history": [
+    "item:adventurez:prime_eye{Damage:0}",
+    "item:graveyard:vial_of_blood{Blood:0.8000001f}",
+    "item:graveyard:lower_bone_staff",
+    "item:soulsweapons:chungus_emerald",
     "item:minecraft:cut_copper_slab"
   ],
   "craft_history": [],

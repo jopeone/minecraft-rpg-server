@@ -1,0 +1,51 @@
+{
+  "block.enhancedcelestials.meteor": "Meteorito",
+  "block.enhancedcelestials.space_moss_block": "Bloque de Musgo Espacial",
+  "block.enhancedcelestials.space_moss_carpet": "Alfombra de Musgo Espacial",
+  "block.enhancedcelestials.space_moss_grass": "Hierba de Musgo Espacial",
+
+  "enhancedcelestials.commands.disabled": "¡Los eventos lunares de Enhanced Celestials están deshabilitados en este mundo!",
+  "enhancedcelestials.commands.lunarevent_missing": "\"%s\" no es un evento lunar válido.",
+
+  "enhancedcelestials.lunarforecast.days_left": "(en %s d)",
+  "enhancedcelestials.lunarforecast.empty": "No hay eventos lunares próximos.",
+  "enhancedcelestials.lunarforecast.header": "Pronóstico lunar actual:\n%s",
+  "enhancedcelestials.lunarforecast.recompute": "¡Se volvió a calcular el pronóstico lunar!",
+
+  "enhancedcelestials.name.blood_moon": "Luna de Sangre",
+  "enhancedcelestials.name.blue_moon": "Luna Azul",
+  "enhancedcelestials.name.harvest_moon": "Luna de la Cosecha",
+  "enhancedcelestials.name.moon": "Luna",
+  "enhancedcelestials.name.super_blood_moon": "Superluna de Sangre",
+  "enhancedcelestials.name.super_blue_moon": "Superluna Azul",
+  "enhancedcelestials.name.super_harvest_moon": "Superluna de la Cosecha",
+  "enhancedcelestials.name.super_moon": "Superluna",
+
+  "enhancedcelestials.notification.blood_moon.rise": "La Luna de Sangre se alza... A lo lejos se oyen los muertos vivientes...",
+  "enhancedcelestials.notification.blood_moon.set": "La Luna de Sangre se oculta... Los muertos vivientes comienzan a arder...",
+
+  "enhancedcelestials.notification.blue_moon.rise": "La Luna Azul se alza... La fortuna está de tu lado.",
+  "enhancedcelestials.notification.blue_moon.set": "La Luna Azul se oculta... La fortuna te abandona.",
+
+  "enhancedcelestials.notification.harvest_moon.rise": "La Luna de la Cosecha se alza... Tus cultivos producen una cosecha mejor.",
+  "enhancedcelestials.notification.harvest_moon.set": "La Luna de la Cosecha se oculta...",
+
+  "enhancedcelestials.notification.super_blood_moon.rise": "La Superluna de Sangre se alza... A lo lejos se oyen los muertos vivientes...",
+  "enhancedcelestials.notification.super_blood_moon.set": "La Superluna de Sangre se oculta... Los muertos vivientes comienzan a arder...",
+
+  "enhancedcelestials.notification.super_blue_moon.rise": "La Superluna Azul se alza... La fortuna está completamente de tu lado.",
+  "enhancedcelestials.notification.super_blue_moon.set": "La Superluna Azul se oculta... La fortuna te abandona.",
+
+  "enhancedcelestials.notification.super_harvest_moon.rise": "La Superluna de la Cosecha se alza... Tus cultivos producen una cosecha excepcional.",
+  "enhancedcelestials.notification.super_harvest_moon.set": "La Superluna de la Cosecha se oculta...",
+
+  "enhancedcelestials.notification.super_moon.rise": "La Superluna se alza... Los slimes comienzan a aparecer por los alrededores.",
+  "enhancedcelestials.notification.super_moon.set": "La Superluna se oculta...",
+
+  "enhancedcelestials.sleep.fail": "No puedes dormir porque el evento lunar actual lo impide.",
+
+  "entity.enhancedcelestials.meteor": "Meteorito",
+  "entity.enhancedcelestials.space_moss_bug": "Insecto del Musgo Espacial",
+
+  "item.enhancedcelestials.space_moss_bug_spawn_egg": "Huevo generador de Insecto del Musgo Espacial"
+}

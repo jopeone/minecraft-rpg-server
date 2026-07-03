@@ -1,0 +1,8 @@
+#Disables the spawn of the spawners.
+DisableSpawners = false
+#Average distance between two neighboring generation attempts.
+BunkersSpacing = 25
+#Minimum distance between two neighboring attempts.
+BunkersSeparation = 20
+#Defines the list of biomes where bunker structure can spawn.
+BunkersBiomes = ["minecraft:dark_forest","minecraft:sunflower_plains","minecraft:desert","minecraft:plains","minecraft:snowy_plains", "minecraft:meadow"]
